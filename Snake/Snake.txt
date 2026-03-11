@@ -1,0 +1,159 @@
+<div id="a">
+  <div id="b"></div>
+</div>
+<div id="a0">
+  <div id="b0"></div>
+</div>
+<div id="a1">
+  <div id="b1"></div>
+</div>
+<div id="a2">
+  <div id="b2"></div>
+</div>
+<div id="a3">
+  <div id="b3"></div>
+</div>
+<div id="a4">
+  <div id="b4"></div>
+</div>
+<div id="c">
+  <div id="d"></div>
+  <div id="d"></div>
+</div>
+<style>
+  body{
+    background:#191919;
+  }
+  #a1{position: fixed; 
+     top:75; left:65;
+     width:60; 
+     height:180;
+     border:5px solid #E08027;
+     border-top: 0;
+     background:#191919;
+     border-radius:0 0 35px 35px;
+      display: flex;
+      justify-content: center;
+     }
+  #b1{
+     width:30; 
+     height:165;
+    background: #191919;
+    border:5px solid #E08027;
+     border-top: 0;
+    border-radius:0 0 35px 35px;
+  }
+   #a2{position: fixed; 
+     top:40; left:114.8;
+     width:60; 
+     height:180; 
+     border:5px solid #E08027;
+     border-bottom: 0;
+     background:#191919;
+     border-radius:35px 35px 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; 
+     }
+  #b2{
+     width:30; 
+     height:165;
+    background: #191919;
+    border:5px solid #E08027;
+    border-bottom: 0;
+    border-radius:35px 35px 0 0;
+  }
+  #a3{position: fixed; 
+     top:175; left:165;
+     width:60; 
+     height:80;
+     border:5px solid #E08027;
+     border-top: 0;
+     background:#191919;
+     border-radius:0 0 35px 35px;
+      display: flex;
+      justify-content: center;
+     }
+  #b3{
+     width:30;height:65;
+    background: #191919;
+    border:5px solid #E08027;
+     border-top: 0;
+    border-radius:0 0 35px 35px;
+  }
+  #a0{position: fixed; 
+     top:40; left:14.8;
+     width:60; 
+     height:80; 
+     border:5px solid #E08027;
+     border-bottom: 0;
+     background:#191919;
+     border-radius:35px 35px 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; 
+     }
+  #b0{
+     width:30; 
+     height:65;
+    background: #191919;
+    border:5px solid #E08027;
+     border-bottom: 0;
+    border-radius:35px 35px 0 0;
+  }
+   #a{position: fixed; 
+     top:75; left:-35;
+     width:60; 
+     height:80;
+     border:5px solid #E08027;
+     border-top: 0;
+     background:#191919;
+     border-radius:0 0 35px 35px;
+      display: flex;
+      justify-content: center;
+     }
+  #b{
+     width:30; 
+     height:65;
+    background: #191919;
+    border:5px solid #E08027;
+     border-top: 0;
+    border-radius:0 0 35px 35px;
+  }
+  #a4{position: fixed; 
+     top:140; left:215.5;
+     width:55;
+     height:80; 
+     border:5px solid #E08027;
+     border-bottom:0;
+      border-right: 0;
+     background:#191919;
+     border-radius:35px 0 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; 
+     }
+  #b4{
+     width:32; 
+     height:65;
+    background: #191919;
+    border:5px solid #E08027;
+     border-bottom: 0;
+    border-right: 0;
+    border-radius:20px 0 0 0;
+  }
+  #c{ position: fixed;
+    top:135; left: 265;
+    width:50; 
+     height:30; border-radius:10px 15px 15px 10px;background: #E08027;
+     display:flex;
+     flex-direction: column; gap: 5px;
+     align-items: flex-end;
+     justify-content: center;
+  }
+  #d{
+    width:10; height:10; 
+    background:#191919 ;border-radius:100%;
+    margin-right: 10
+  }
+</style>

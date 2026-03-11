@@ -1,0 +1,37 @@
+<div class="circle">
+  <div class="outer a"></div>
+  <div class="outer b"></div>
+  <div class="outer c"></div>
+</div>
+<style>
+  body{
+    background: #0D1335;
+    display: grid;
+    place-items: center;
+  }
+  .circle {
+    width: 40px;
+    aspect-ratio: 1;
+    background: #73C6EA;
+    border-radius: 50%;
+  }
+  .outer{
+    left: 50%;
+    top:50%;
+    position: absolute;
+    width: 230;
+    height: 90;
+    translate:-50% -50%;
+    border: 10px solid #FBFAE2;
+    border-radius: 100%;
+  }
+  .b{
+    rotate: 60deg;
+    border-color:#DC6638;
+    z-index:100
+  }
+  .c{
+    rotate: -60deg;
+    border-color:#4FA07B
+  }
+</style>

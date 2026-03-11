@@ -1,0 +1,97 @@
+<div class="c">
+  <div class="ci one"></div>
+  <div class="ci two"></div>
+</div>
+<div class="big">
+<div class="box fi"></div>
+<div class="box se">
+  <div id="slfi"></div>
+  <div id="slse"></div>
+</div>
+<div class="box th">
+  <div id="slth"></div>
+</div>                 
+<div class="box fo">
+  <div id="slfo"></div>
+</div>
+</div>
+<style>
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+.c {
+    width: 120px;
+    height: 120px;
+    background: #CD2E3A;
+    border-radius: 50%;
+   display: flex;
+  align-items: center;
+  background: linear-gradient(
+    #CD2E3A,#CD2E3A 50%, #0047A0 50%,#0047A0);
+  position: absolute;}
+  .ci{
+     width: 60px;
+    height: 60px;
+    background: yellow;
+    border-radius: 50%;}
+  .one{
+    background: #CD2E3A;}
+  .two{
+    background: #0047A0;}
+  
+  .box{
+    width: 42px;
+    height: 60px;
+    background:#000000;
+    z-index: 1;}
+  .fi{
+    position: fixed;
+    top: 65px; left: 85px;
+    transform: rotate(30deg);
+    background: linear-gradient(90deg,
+  black , black 23%, white 23%, white 38%, 
+  black 38%, black 61%, white 61%, white 76%,black 76%);}
+  .se{
+    position: fixed;
+    top: 65px; left: 272px;
+    transform: rotate(-30deg);
+    background: linear-gradient(90deg,
+  black , black 23%, white 23%, white 38%, 
+  black 38%, black 61%, white 61%, white 76%,black 76%);}
+  .th{
+    position: fixed;
+    top: 175px; left: 85px;
+    transform: rotate(150deg);
+    background: linear-gradient(90deg,
+  black , black 23%, white 23%, white 38%, 
+  black 38%, black 61%, white 61%, white 76%,black 76%);}
+  .fo{
+    position: fixed;
+    position: fixed;
+    top: 175px; left: 273px;
+    transform: rotate(-150deg);
+    background: linear-gradient(90deg,
+  black , black 23%, white 23%, white 38%, 
+  black 38%, black 61%, white 61%, white 76%,black 76%);}
+  #slfi{
+    position: fixed;
+    width: 12px; height: 6px;
+    background:#FFFFFF;
+  top: 28px; left:-2px;}
+  #slse{
+   position: fixed;
+    width: 12px; height: 6px;
+    background:#FFFFFF;
+  top: 28px; left:31px;}
+  #slth{
+     position: fixed;
+    width: 12px; height: 6px;
+    background:#FFFFFF;
+  top: 27px; left:15px; }
+  #slfo{
+     position: fixed;
+    width: 50px; height: 5px;
+    background:#FFFFFF;
+  top: 29px; left:-3px;}
+</style>

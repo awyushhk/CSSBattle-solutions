@@ -1,0 +1,63 @@
+<div id="face">
+  <div id="hea"><div id="he"></div></div>
+</div>
+<div id="eyeo"></div><div id="eyet"></div>
+<div id="jawo"></div><div id="jawt"></div>
+<div id="l"></div>
+<style>
+ body{
+   background:#BB2726;
+   display: flex;
+  justify-content: center;
+ } 
+#face{
+  background:#F3AC3C;
+  height: 96vh;
+  width: 54vw;
+  margin-top: -11px;
+  display: flex;
+  justify-content: center;
+   align-content: center;
+  position: fixed;
+}
+#he{
+  background: #BB2726;
+  height: 68; width: 80;
+  }
+  #hea{
+   height: 125; width: 146; 
+     display: flex;
+  justify-content: center;
+   align-content: center;
+    border: 10px solid #BB2726;
+    border-top: 0;
+  }
+  #eyeo{
+    height: 10; width: 45; 
+    background: #FFFFFF; position:fixed;
+    z-index: 1;  top: 132; left: 7.35em;
+    border: 10px solid #BB2726;border-top: 0;}
+  #eyet{
+    height: 10; width: 45; 
+    background: #FFFFFF; position:fixed;
+    z-index: 1;  top: 132; left: 13.65em;
+    border: 10px solid #BB2726;border-top: 0;
+  }
+   #jawo{
+    height: 120; width: 55; 
+    position:fixed; border-radius: 0 100em 0 0;
+    z-index: 1;  top: 10.15em; left: 77;
+    border: 10px solid #BB2726;
+  }
+  #jawt{
+    height: 120; width: 55; 
+    position:fixed; border-radius: 100em 0 0 0;
+    z-index: 1;  top: 10.15em; left: 249;
+    border: 10px solid #BB2726;
+  }
+  #l{
+    height: 10px; width: 105; z-index: 1;
+    background:#BB2726;  position:fixed;
+    bottom: 52
+  }
+</style>

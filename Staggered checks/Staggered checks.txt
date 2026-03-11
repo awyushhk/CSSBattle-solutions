@@ -1,0 +1,30 @@
+<p>
+  <a>
+    <a></a>
+  </a>
+</p>
+<style>
+  * {
+    position: fixed;
+    background:#6867D4
+  }
+
+  p {
+    padding: 96; /* use padding for creating squares or rectangles*/
+    background: #000039;
+    rotate: 45deg;
+    margin: 40 96 /* use margin for positioning */
+  }
+
+  a {
+    padding: 96 4;
+    color: #6867D4;
+    margin: -96-80;
+    box-shadow: 32px 0, 72px 0, 120px 0 /* use it for duplicating rectangle strips*/
+  }
+
+  a+a {
+    rotate: 90deg;
+    margin: -172-4
+  }
+</style>

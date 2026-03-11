@@ -1,0 +1,36 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<style>
+  body{
+    margin: 0
+  }
+  div {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: #0D1335;
+    box-shadow: 
+      inset 0px 0px 0px 20px #0D1335,
+      inset 0px 0px 0px 40px #DC6638,
+      inset 0px 0px 0px 60px #0D1335,
+      inset 0px 0px 0px 80px #DC6638,
+      inset 0px 0px 0px 100px #0D1335,
+      inset 0px 0px 0px 120px #DC6638,
+      inset 0px 0px 0px 140px #0D1335,
+      inset 0px 0px 0px 160px #DC6638;
+  }
+  [a] {
+    translate: -190px -140px 
+  }
+  [b] {
+    translate: 190px -140px 
+  }
+  [c] {
+    translate: 190px 140px 
+  }
+  [d] {
+    translate: -190px 140px
+  }
+</style>

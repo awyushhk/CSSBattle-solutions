@@ -1,0 +1,49 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<style>
+  body{
+    display: grid;
+    place-items:center;
+    margin: 0;
+    background: #F8F8F8;
+  }
+  [a] {
+    width: 340px;
+    height: 170px;
+    background: repeating-linear-gradient(
+      #787885 0px, #787885 10px, 
+      #F8F8F8 10px, #F8F8F8 20px 
+    );
+    position: absolute;
+    top: 110   
+  }
+  [b] {
+    width: 340px;
+    height: 10px;
+    background: #787885;
+    position: absolute;
+    top: 80
+  }
+  [c] {
+    width: 340px;
+    height: 50px;
+    background: green;
+    position: absolute;
+    top: 20;
+    background: repeating-linear-gradient( 90deg,
+      #787885 0px, #787885 40px, 
+      #F8F8F8 40px, #F8F8F8 60px 
+    );
+  }
+  [d] {
+    width: 172px;
+    height: 150px;
+    background: #787885;
+    position: absolute;
+    top: 130;
+    border-left: 10px solid #F8F8F8;
+    border-right: 10px solid #F8F8F8;
+  }
+</style>

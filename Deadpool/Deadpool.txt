@@ -1,0 +1,89 @@
+<div class="f"></div>
+<div class="m o">
+  <div class="eo"></div>
+</div>
+<div class="m t">
+  <div class="et"></div>
+</div>
+<div class="c"></div>
+<div class="j">
+  <div class="mou"></div>
+</div>
+<style>
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #373794;
+  }
+.f{
+    width: 85px;
+    height: 83px;
+    background: #F3AC3C;
+    border-radius: 50% 50% 0 0;
+    position: fixed;
+    top: 86px;
+    left: 157px;
+  }
+.m{
+   width: 100px;
+   height: 69px;
+  background: #0E0E39;
+  margin-top: -15px;
+}
+.o{
+border-radius: 0 48px 0 65px;
+  z-index: 1;  }
+.t{
+border-radius: 48px 0 65px 0;
+  z-index: 1;
+}
+.eo{
+  width: 30px;
+   height: 20px;
+  background: #FFFFFF;
+  position: fixed;
+  top: 146px; left: 165px;
+  border-radius: 0 65px 0 65px;
+}
+  .et{
+  width: 30px;
+   height: 20px;
+  background: #FFFFFF;
+  position: fixed;
+  top: 146px; left: 205px;
+    border-radius: 65px 0 65px 0;
+}
+  .c{
+    width: 80px;
+    height: 70px;
+    background: #0E0E39;
+    border-radius: 0 0 50% 50%;
+    position: fixed;
+    top: 145px;
+    left: 160px;
+    z-index: -1;
+  }
+  .j{
+    width: 54px;
+    height: 83px;
+    background: #F3AC3C;
+    border-radius: 0 0 48px 48px;
+    position: fixed;
+    top: 145px;
+    left: 173px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mou{
+   width: 40px;
+    height: 20px;
+    background: #FFFFFF; 
+    postion: fixed;
+    margin-top: 26px;
+    border-radius: 100px;
+  }
+</style>
